@@ -38,7 +38,7 @@ buildscript {
     google()
   }
   dependencies {
-    classpath deps.androidPlugin
+    classpath 'com.android.tools.build:gradle:4.2.2'
     classpath deps.kotlin.plugin
   }
 }
